@@ -1,7 +1,7 @@
 import pickle 
 
 
-model  = pickle.load(open('api/models/phishing_classifier.pkl', 'rb'))
+model  = pickle.load(open('./phishing_classifier.pkl', 'rb'))
 
 
 def prediction(x): 
